@@ -1,0 +1,4 @@
+-r requirements.txt
+kafka-python==2.2.15
+pyspark==3.5.9
+pyarrow>=12,<20

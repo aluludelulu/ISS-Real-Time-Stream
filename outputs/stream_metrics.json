@@ -1,0 +1,8 @@
+{
+  "event_count": 8640,
+  "throughput_events_per_sec": 794.1674727465027,
+  "mean_latency_ms": 5517.842458298264,
+  "p95_latency_ms": 9916.334833049967,
+  "max_backlog": 8478,
+  "worker_count": 3
+}

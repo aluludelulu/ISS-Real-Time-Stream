@@ -1,0 +1,10 @@
+{
+  "raw_event_count": 8640,
+  "one_minute_points": 1440,
+  "sampling_interval_seconds": 10,
+  "altitude_mean_km": 374.9827581018518,
+  "altitude_min_km": 365.61,
+  "altitude_max_km": 385.82,
+  "speed_mean_kmph": 27672.857158564817,
+  "dominant_altitude_period_minutes_60_120_band": 102.85714285714286
+}

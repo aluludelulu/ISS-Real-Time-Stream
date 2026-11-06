@@ -1,0 +1,44 @@
+{
+  "machine_learning": {
+    "train_events": 6047,
+    "test_events": 2592,
+    "accuracy": 0.9594907407407407,
+    "f1": 0.9639051220350636,
+    "roc_auc": 0.9748336810398803,
+    "confusion_matrix": [
+      [
+        1085,
+        53
+      ],
+      [
+        52,
+        1402
+      ]
+    ],
+    "target": "next altitude direction: 1=up, 0=not up",
+    "split": "chronological 70/30"
+  },
+  "anomaly_detection": {
+    "train_events": 6048,
+    "test_events": 2592,
+    "precision": 0.7183098591549296,
+    "recall": 0.51,
+    "f1": 0.5964912280701754,
+    "confusion_matrix": [
+      [
+        2352,
+        40
+      ],
+      [
+        98,
+        102
+      ]
+    ],
+    "features": [
+      "altitude_rate",
+      "speed_kmph"
+    ],
+    "contamination": 0.03,
+    "split": "fit on first 70%; evaluated on last 30%"
+  }
+}
